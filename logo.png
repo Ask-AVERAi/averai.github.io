@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AVERAÏ | Immigration & Labor | Literal Translation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Georgia", "Times New Roman", serif;
+      color: #1f2933;
+      background-color: #ffffff;
+    }
+    header {
+      padding: 80px 20px 60px;
+      text-align: center;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    header h1 {
+      font-size: 56px;
+      letter-spacing: 2px;
+      margin-bottom: 16px;
+    }
+    header p {
+      font-size: 18px;
+      color: #4b5563;
+    }
+    section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+    section h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    section p {
+      font-size: 17px;
+      line-height: 1.7;
+      color: #374151;
+    }
+    ul {
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    footer {
+      border-top: 1px solid #e5e7eb;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 14px;
+      color: #6b7280;
+    }
+    .contact {
+      background-color: #f9fafb;
+      padding: 40px 20px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="AVERAÏ logo" style="max-width:180px; margin-bottom:20px;" />
+  <h1>AVERAÏ</h1>
+  <p>Immigration & Labor | Literal Translation</p>
+  <div style="margin-top:20px; font-size:14px;">
+    <button onclick="toggleLanguage()" style="cursor:pointer; padding:6px 12px; border:1px solid #ccc; background:#fff;">🌐 Español</button>
+  </div>
+</header>
+
+<section>
+  <h2>About</h2>
+  <p>
+    AVERAÏ is a professional practice focused on immigration and labor matters, combined with literal Spanish–English and English–Spanish translation.
+    We work at the point where language and law intersect — where accuracy of words is essential and meaning must be preserved with care.
+  </p>
+  <p>
+    Our approach is precise, responsible, and grounded in legal understanding. We support individuals and professionals navigating cross-border processes,
+    regulatory requirements, and multilingual documentation.
+  </p>
+</section>
+
+<section>
+  <h2>Services</h2>
+  <ul>
+    <li>Immigration consultation</li>
+    <li>Labor-related consultation</li>
+    <li>Literal Spanish–English translation</li>
+    <li>Review of multilingual documents</li>
+    <li>Cross-border language support</li>
+  </ul>
+</section>
+
+<section class="contact">
+  <h2>Contact</h2>
+  <p>
+    To request an appointment or inquire about services, please use the form below or email us directly.
+  </p>
+
+  <form action="https://formspree.io/f/xwkgbzrz" method="POST" style="margin-top:20px;">
+    <label style="display:block; margin-bottom:10px;">
+      Name<br />
+      <input type="text" name="name" required style="width:100%; padding:10px; margin-top:4px;" />
+    </label>
+
+    <label style="display:block; margin-bottom:10px;">
+      Email<br />
+      <input type="email" name="email" required style="width:100%; padding:10px; margin-top:4px;" />
+    </label>
+
+    <label style="display:block; margin-bottom:10px;">
+      Message<br />
+      <textarea name="message" rows="5" required style="width:100%; padding:10px; margin-top:4px;"></textarea>
+    </label>
+
+    <button type="submit" style="padding:10px 20px; border:1px solid #333; background:#fff; cursor:pointer;">Send</button>
+  </form>
+
+  <p style="margin-top:20px; font-size:14px;">
+    <strong>Email:</strong> ask.averai@gmail.com<br />
+    <strong>Location:</strong> Madrid, Spain
+  </p>
+</section>
+
+<footer>
+  © 2025 AVERAÏ. All rights reserved.<br /><br />
+  <strong>Legal Disclaimer & Privacy Notice</strong><br />
+  The information provided on this website is for general informational purposes only and does not constitute legal advice. 
+  Contacting AVERAÏ does not create a lawyer–client relationship. While we take care to ensure accuracy, no guarantees are made regarding the completeness or applicability of the information.
+  <br /><br />
+  Personal data submitted through this website is handled confidentially and used solely for communication and service-related purposes. No personal information is shared with third parties except where required by law.
+</footer>
+
+</body>
+</html>
